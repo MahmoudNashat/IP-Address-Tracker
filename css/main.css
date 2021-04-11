@@ -6,8 +6,13 @@
 body {
     font-family: "Rubik", sans-serif;
 }
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
 .container .search_container {
-    position: relative;
     width: 100%;
     height: 200px;
     background-image: url("../images/pattern-bg.png");
@@ -99,10 +104,7 @@ body {
 }
 /*Start media queries*/
 /* Extra small devices (phones, 600px and down) */
-@media (min-width: 480px) and (max-width: 767px) {  
-    .show-result  {
-        width: 80%;
-    }
+@media all and (max-width: 767px) {  
     .show-result > div {
         text-align: center;
         width: 100%;
