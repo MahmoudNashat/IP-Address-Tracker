@@ -104,7 +104,7 @@ html, body {
 }
 /*Start media queries*/
 /* Extra small devices (phones, 600px and down) */
-@media all and (max-width: 767px) {  
+@media(max-width: 767px) {  
     .show-result > div {
         text-align: center;
         width: 100%;
